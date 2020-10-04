@@ -7,7 +7,8 @@ const chalk = require('chalk');
 const data = require('./data.json');
 
 // add response color
-const response = chalk.bold.blue;
+const response = chalk.bold.green;
+const seperator = chalk.gray;
 
 const resumeOptions = {
   type: 'list',
@@ -17,7 +18,7 @@ const resumeOptions = {
 };
 
 function showResume() {
-  console.log('Hi! Welcome to my resume!');
+  console.log('Hi! My name is Kartik and welcome to my resume!');
   handleResume();
 }
 
@@ -29,11 +30,20 @@ function handleResume() {
 
       const options = data[`${answer.resumeOptions}`];
       if (options) {
-        console.log(response(new inquirer.Separator()));
-        options.forEach((info) => {
-          console.log(response('|   => ' + info));
+        console.log(seperator(new inquirer.Separator()));
+        options.forEach((info, i) => {
+          if (typeof info === 'object') {
+            Object.keys(info).forEach((key) => {
+              console.log(response('   ' + chalk.blue(key) + chalk.blue(': ') + info[key]));
+            });
+            if (i !== options.length - 1) {
+              console.log();
+            }
+          } else {
+            console.log(response(' ' + info));
+          }
         });
-        console.log(response(new inquirer.Separator()));
+        console.log(seperator(new inquirer.Separator()));
       }
 
       inquirer

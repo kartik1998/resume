@@ -1,7 +1,7 @@
 {
   "Education": [
     {
-      "University": "Delhi Technollogical University",
+      "University": "Delhi Technological University",
       "Major": "Software Engineering"
     },
     {
@@ -42,7 +42,7 @@
     "Data Structures",
     "Algorithm Design and Analysis",
     "Object Oriented Programming",
-    " Operating Systems",
+    "Operating Systems",
     "Database Management Systems",
     "Machine Learning",
     "Computer Networks",
@@ -52,5 +52,5 @@
     "Object Oriented Software Engineering",
     "Software Testing"
   ],
-  "Contact": ["kartikrawat61@gmail.com", 9205527562]
+  "Contact": ["kartikrawat61@gmail.com", "Phone Number - 9205527562"]
 }
