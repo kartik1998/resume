@@ -4,7 +4,7 @@
   "description": "My npm resume ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/kartik1998/resume/issues"
   },
-  "homepage": "https://github.com/kartik1998/resume#readme"
+  "homepage": "https://github.com/kartik1998/resume#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0"
+  }
 }
