@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "My npm resume ",
   "main": "index.js",
+  "bin": {
+    "kartik-resume": "./index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },
