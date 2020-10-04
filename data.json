@@ -1,5 +1,56 @@
 {
-  "Education": ["Delhi College of Engineering", "Student", "Etc, etc."],
-  "Experience": ["Hyperverge ", "Dev", "Etc, etc."],
-  "Contact": ["kartikrawat61@gmail.com"]
+  "Education": [
+    {
+      "University": "Delhi Technollogical University",
+      "Major": "Software Engineering"
+    },
+    {
+      "School": "National Victor Public School",
+      "Board": "Central Board of Secondary Education"
+    },
+    {
+      "School": "Delhi Public School Sushant Lok",
+      "Board": "Central Board of Secondary Education"
+    }
+  ],
+  "Experience": [
+    {
+      "Company": "Hyperverge",
+      "Team": "India-Pod Software Engineering Team"
+    },
+    {
+      "Company": "GeeksForGeeks",
+      "Work": "Teaching Assistant - Problem Solving"
+    },
+    {
+      "Company": "Talent4Assure Web Services",
+      "Designation": "Software Engineering Intern"
+    }
+  ],
+  "Research": [
+    {
+      "Description": "Research project under Dr. Sonika Dahiya which aims to substantially reduce the effect of outliers on real-world datasets. Currently testing the effects of merging Intutionistic Fuzzy Set theory and Density Oriented Outlier Detection along with the results achieved with other high performance algorithms such as Noice Clustering and Credibilistic Fuzzy C Means."
+    }
+  ],
+  "Projects": [
+    "Image Segmentation using Density Oriented Fuzzy-C-means clustering Algorithm",
+    "Dynamic hand Gesture recognition using and neural networks",
+    "Rate Limiter Libraries Published to npmjs",
+    "Vietnameze Data analyzer Library"
+  ],
+  "Course Work": [
+    "Data Structures",
+    "Algorithm Design and Analysis",
+    "Object Oriented Programming",
+    " Operating Systems",
+    "Database Management Systems",
+    "Machine Learning",
+    "Computer Networks",
+    "Compiler Design",
+    "Software Engineering",
+    "Advances in Software Engineering",
+    "Object Oriented Software Engineering",
+    "Software Testing"
+  ],
+  "Contact": ["kartikrawat61@gmail.com", 9205527562]
 }
